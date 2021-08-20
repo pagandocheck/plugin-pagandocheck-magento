@@ -1,7 +1,7 @@
 # plugin-pagandocheck-magento
 Plugin de magento para pagos con Pagando Check.
 
-## Instalar plugin de Pagando para pagos en la tienda.
+## Instalar plugin de Pagando Check para pagos en la tienda.
 
 ## Requisitos previos
 
@@ -17,21 +17,21 @@ Para obtener sus llaves de prueba debe ingresar con su cuenta empresarial a http
 
 <img width="1266" alt="Captura de Pantalla 2021-08-11 a la(s) 13 40 38" src="https://user-images.githubusercontent.com/88348069/129092607-1e4b96f6-cd8e-4538-a9e0-d2094361eb47.png">
 
-Una vez dentro, en el menú de opciones, dentro del apartado de pagos, ingresara a **API para sitio web**.
+Una vez dentro, en el menú de opciones, dentro del apartado de pagos, ingresara a **API para sitio web**. Y luego hacer clic en **Botón Checkout**.
 
 <img width="784" alt="Captura de Pantalla 2021-08-11 a la(s) 13 44 18" src="https://user-images.githubusercontent.com/88348069/129093055-57741a7a-3a67-4da6-a13b-0ca99a83fdf3.png">
 
-Y luego hacer clic en **Botón Checkout**, depués en la opción **Magento**, ahí podrá generar y recuperar sus llaves de prueba.
+Depués en la opción **Magento**, en la primera sección, podrá generar y recuperar sus llaves de prueba.
 
 <img src="https://rapi-doc.s3.amazonaws.com/Captura+de+Pantalla+2021-08-03+a+la(s)+11.48.57.png" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 ### 2. Configuración de módulo Checkout
 
-Aquí se configura la dirección a donde quiere regresar a sus clientes una vez que se ha efectuado el pago.
+Aquí se configura la dirección a donde quiere regresar a sus clientes una vez que se ha efectuado el pago, entre otras configuraciones.
 
 <img src="https://rapi-doc.s3.amazonaws.com/Captura+de+Pantalla+2021-08-03+a+la(s)+11.45.21.png" style="display: block; margin-left: auto; margin-right: auto;"/>
 
-### 3. Agregar plugin de Pagando
+### 3. Agregar plugin de Pagando Check
 
 Lo primero es ubicar su tienda en el directorio de htdocs de MAMP, luego, ingresar en la siguiente dirección **/ magento-store / app / code**, aqui debe clonar el proyecto de https://github.com/pagandocheck/plugin-pagandocheck-magento.git, despues ejecute estos dos comandos desde la raiz de su tienda, es decir en la carpeta magento-store para refrescar la vista de su tienda.
 
@@ -64,13 +64,13 @@ Una vez abierta la sección de **Configuration**, en el menú lateral damos clic
 
 ### 5. Agregar credenciales
 
-Al momento que damos clic en **Payment methods** se mostrarán todas las opciones disponibles de métodos de pago, buscamos la opción llamada **PAGANDO MX** y hacemos clic sobre ella, para que nuestro método sea visible en el campo **Enabled** seleccionamos la opción **Yes** y rellenamos los campos de **User** y **Public key** con las credenciales que hemos obtenido.
+Al momento que damos clic en **Payment methods** se mostrarán todas las opciones disponibles de métodos de pago, buscamos la opción llamada **Pagando Check** y hacemos clic sobre ella, para que nuestro método sea visible en el campo **Enabled** seleccionamos la opción **Yes** y rellenamos los campos de **User** y **Public key** con las credenciales que hemos obtenido.
 Adicional a esto, el único país disponible para nuestro método de pago es México.
 
-<img src="https://negocios.pagando.mx/img/configuracion-modulo-1.ce3db621.png"/>
+<img width="804" alt="Captura de Pantalla 2021-08-12 a la(s) 13 38 22" src="https://user-images.githubusercontent.com/88348069/129258642-3628c77f-13a4-4f2e-ac1d-1a3415e5b5a7.png">
 
 ### 6. Visualización del método de pago
 
 Después de finalizar con la configuración podrá visualizar su nuevo método de pago en su carrito de compras.
 
-<img src="https://negocios.pagando.mx/img/modulo-instalado-1.7218b629.png"/>
+<img width="817" alt="payment-methods-list" src="https://user-images.githubusercontent.com/88348069/129280690-51c54846-955b-4508-add1-915e4eedcd26.png">
