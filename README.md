@@ -33,7 +33,13 @@ Aquí se configura la dirección a donde quiere regresar a sus clientes una vez 
 
 ### 3. Agregar plugin de Pagando Check
 
-Lo primero es ubicar su tienda en el directorio de htdocs de MAMP, luego, ingresar en la siguiente dirección **/ magento-store / app / code**, aqui debe clonar el proyecto de https://github.com/pagandocheck/plugin-pagandocheck-magento.git, despues ejecute estos dos comandos desde la raiz de su tienda, es decir en la carpeta magento-store para refrescar la vista de su tienda.
+Para obtener el modulo debe clonar este proyecto de github en su equipo de computo con el siguiente comando:
+
+```
+git clone git@github.com:pagandocheck/plugin-pagandocheck-magento.git
+```
+
+Una vez descargado, debe ingresar dentro del proyecto y trasladar la carpeta **XCNetworks** dentro de la siguiente dirección **/ magento-store / app / code**, despues ejecute estos dos comandos desde la raiz de su tienda, es decir en la carpeta magento-store para refrescar la vista de su tienda.
 
 ```
 php bin/magento setup:upgrade
