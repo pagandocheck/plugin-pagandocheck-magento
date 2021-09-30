@@ -29,7 +29,7 @@ Depués en la opción **Magento**, en la primera sección, podrá generar y recu
 
 Aquí se configura la dirección a donde quiere regresar a sus clientes una vez que se ha efectuado el pago, entre otras configuraciones.
 
-<img width="816" alt="redirect-config" src="https://user-images.githubusercontent.com/88348069/135501874-3a18fa09-f7d5-4100-b9be-bed71d3436a8.png" style="display: block; margin-left: auto; margin-right: auto;">
+<img width="807" alt="redirect-config-magento" src="https://user-images.githubusercontent.com/88348069/135516521-7edfb19d-565d-45ed-851b-90cd07fc4c42.png">
 
 ### 3. Agregar plugin de Pagando Check
 
